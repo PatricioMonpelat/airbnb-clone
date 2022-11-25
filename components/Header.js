@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../assets/Logo.png";
+import logo from "../assets/svg/logo.svg";
 import { SearchIcon, GlobeAltIcon, MenuIcon, UserCircleIcon, UserIcon  } from '@heroicons/react/solid';
 
 function Header() {
