@@ -70,11 +70,11 @@ function Header({ placeholder }) {
       </div>
 
       <div className='flex items-center space-x-4 justify-end text-gray-500'>
-        <p className='hidden md:inline cursor-pointer hover:bg-gray-100 text-black rounded-full p-3'>
+        <p className='hidden md:inline cursor-pointer hover:bg-gray-100 text-[#222222] rounded-full p-3'>
           Become a host
         </p>
-        <GlobeAltIcon className='h-6' />
-        <div className='flex items-center space-x-2 border-2 p-2 rounded-full'>
+        <GlobeAltIcon className='h-6 hover:bg-gray-100' />
+        <div className='flex items-center space-x-2 border-2 p-2 rounded-full hover:shadow-lg '>
           <MenuIcon className='h-6' />
           <UserCircleIcon className='h-6' />
         </div>
