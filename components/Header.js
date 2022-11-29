@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../assets/svg/logo.svg";
+import logo3 from "../assets/img/logo3.png";
 import {
   SearchIcon,
   GlobeAltIcon,
@@ -55,7 +55,7 @@ function Header({ placeholder }) {
         onClick={() => router.push("/")}
         className='relative flex items-center h-10 cursor-pointer my-auto'
       >
-        <Image src={logo} alt='logo' className='w-20' />
+        <Image src={logo3} alt='logo' className='w-20' />
       </div>
 
       <div className='flex items-center md:border-2 rounded-full py-2 md:shadow-sm'>
