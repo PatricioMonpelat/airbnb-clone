@@ -98,8 +98,7 @@ function Search() {
 
   // ES6 Destructuring
   const { location, startDate, endDate, noOfGuests } = router.query;
-  // console.log(startDate, endDate);
-  // console.log(location);
+
   const formattedStartDate = format(new Date(startDate), "dd MMM yy");
   const formattedEndDate = format(new Date(endDate), "dd MMM yy");
   // console.log(formattedStartDate);
